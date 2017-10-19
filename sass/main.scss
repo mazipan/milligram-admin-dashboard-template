@@ -1,0 +1,15 @@
+body{
+  background-color: #fff;
+  text-align: center;
+}
+svg{
+  height: 200px;
+}
+path {
+  animation: 7s a forwards;
+  fill: #9b4dca;
+  stroke: #9b4dca;
+  stroke-dasharray: 38321;
+  stroke-miterlimit: 10;
+  stroke-width: 15px;
+}
