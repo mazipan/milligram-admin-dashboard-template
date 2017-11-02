@@ -16,7 +16,7 @@ var autoprefixerOptions = {
 };
 
 gulp.task('clean', function () {
-    return gulp.src(['./dist/*.css'], {read: false})
+    return gulp.src(['./css/*.css'], {read: false})
         .pipe(clean());
 });
 
@@ -25,7 +25,7 @@ gulp.task('sass', function () {
         .src('./sass/**/*.scss')
         .pipe(sass({outputStyle: 'compact'}).on('error', sass.logError))
         .pipe(autoprefixer(autoprefixerOptions))
-        .pipe(gulp.dest('./dist'))
+        .pipe(gulp.dest('./css'))
         .pipe(browserSync.stream());
 });
 
