@@ -1,10 +1,7 @@
-window.onload = function () {
-  
-}
-FusionCharts.ready(function () {
-  var revenueChart = new FusionCharts({
+function renderChartBar() {
+  var chart = new FusionCharts({
     "type": "column2d",
-    "renderAt": "chartContainer",
+    "renderAt": "chartBarContainer",
     "width": "500",
     "height": "300",
     "dataFormat": "json",
@@ -18,13 +15,6 @@ FusionCharts.ready(function () {
         "baseFontColor": "000000",
         "showvalues": "1",
         "interactiveLegend": "1",
-        "legendPosition": "RIGHT",
-        "legendBgColor": "#ffffff",
-        "legendBgAlpha": "100",
-        "legendNumColumns": "1",
-        "legendScrollBgColor": "#ffffff",
-        "legendScrollBarColor": "#707070",
-        "legendScrollBtnColor": "#707070",
         "bgColor": "#ffffff",
         "bgAlpha": "100",
         "bgRatio": "100",
@@ -98,5 +88,100 @@ FusionCharts.ready(function () {
       ]
     }
   });
-  revenueChart.render();
+  chart.render();
+}
+
+function renderChartPie() {
+  var chart = new FusionCharts({
+    "type": "pie3d",
+    "renderAt": "chartPieContainer",
+    "width": "500",
+    "height": "300",
+    "dataFormat": "json",
+    "dataSource": {
+      "chart": {
+        "caption": "Sales Per Employee for 2014",
+        "animation": "1",
+        "formatnumberscale": "1",
+        "decimals": "0",
+        "numberprefix": "$",
+        "pieslicedepth": "30",
+        "startingangle": "125",
+        "showborder": "1",
+        "baseFontSize": "7",
+        "baseFontColor": "000000",
+        "bgColor": "#ffffff",
+        "bgAlpha": "100",
+        "bgRatio": "100",
+        "canvasBgColor": "#ffffff",
+        "canvasBgAlpha": "100",
+        "canvasBgRatio": "100",
+        "canvasBorderColor": "FFFFFF",
+        "canvasBorderThickness": "1",
+        "divLineColor": "FFFFFF",
+        "divLineThickness": "1",
+        "divLineAlpha": "50",
+        "lineThickness": "1",
+        "showAlternateHGridColor": "0",
+        "outCnvBaseFontColor": "707070",
+        "showBorder": "1",
+        "toolTipBgColor": "#ffffff",
+        "paletteColors": "#de002c, #a72edb, #87cf02, #0091d4",
+        "plotGradientColor": ""
+      },
+      "data": [
+        {
+          "label": "Leverling",
+          "value": "100524",
+          "issliced": "1"
+        },
+        {
+          "label": "Fuller",
+          "value": "87790",
+          "issliced": "1"
+        },
+        {
+          "label": "Davolio",
+          "value": "81898",
+          "issliced": "0"
+        },
+        {
+          "label": "Peacock",
+          "value": "76438",
+          "issliced": "0"
+        },
+        {
+          "label": "King",
+          "value": "57430",
+          "issliced": "0"
+        },
+        {
+          "label": "Callahan",
+          "value": "55091",
+          "issliced": "0"
+        },
+        {
+          "label": "Dodsworth",
+          "value": "43962",
+          "issliced": "0"
+        },
+        {
+          "label": "Suyama",
+          "value": "22474",
+          "issliced": "0"
+        },
+        {
+          "label": "Buchanan",
+          "value": "21637",
+          "issliced": "0"
+        }
+      ]
+    }
+  });
+  chart.render();
+}
+
+FusionCharts.ready(function () {
+  renderChartBar();
+  renderChartPie();
 })
