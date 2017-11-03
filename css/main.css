@@ -40,13 +40,13 @@
 
 .nav-list li a { border-radius: 2px; display: block; padding: .5em .75em; color: #fff; }
 
-.nav-list li a:hover { color: #fff; }
+.nav-list li a:hover { color: #fff; background-color: #b174d6; }
 
 .nav-list li ul { list-style: none; border-left: 1px solid #dbdbdb; margin: .75em; padding-left: .75em; }
 
 .nav-label { text-transform: uppercase; padding-bottom: .5em; }
 
-.content { position: fixed; height: 100%; margin-top: 5.2rem; padding: .5em !important; }
+.content { position: fixed; height: 100%; margin-top: 5.2rem; padding: .5em !important; overflow: auto; }
 
 .content__title { color: #9b4dca; }
 
@@ -58,7 +58,7 @@
 
 .content::-webkit-scrollbar-thumb { background-color: #b4b4b4; }
 
-.card { background-color: #9b4dca; color: #fff; border-radius: 3px; padding: 1.25rem !important; margin-right: .5em; webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); }
+.card { background-color: #9b4dca; color: #fff; border-radius: 3px; padding: 1.25rem !important; margin: 0 .5em .5em 0; webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); }
 
 .card__title { font-size: 1.3rem; text-transform: uppercase; }
 

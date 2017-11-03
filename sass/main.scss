@@ -1,8 +1,9 @@
 $brand-color: #9b4dca;
 $text-color: #606c76;
+$white-color: #fff;
 
 .home{  
-  background-color: #fff;
+  background-color: $white-color;
   text-align: center;
 
   svg{
@@ -126,10 +127,10 @@ $text-color: #606c76;
   padding-left: 1em;
   padding-top: 1em;
   font-size: 1.3rem;
-  color: #fff;
+  color: $white-color;
 
   .is-active{    
-    background-color: #9b4dca;
+    background-color: $brand-color;
   }
 
   &-list {
@@ -141,9 +142,11 @@ $text-color: #606c76;
         border-radius: 2px;
         display: block;
         padding: .5em .75em;
-        color: #fff;
+        color: $white-color;
+
         &:hover{
-          color: #fff;
+          color: $white-color;
+          background-color: lighten($brand-color, 10%);
         }
       }
 
@@ -168,9 +171,10 @@ $text-color: #606c76;
   height: 100%;
   margin-top: 5.2rem;
   padding: .5em !important;
+  overflow: auto;
 
   &__title{
-    color: #9b4dca;
+    color: $brand-color;
   }
 
   &__wrapper{
@@ -196,11 +200,11 @@ $text-color: #606c76;
 }
 
 .card{
-  background-color: #9b4dca;
-  color: #fff;
+  background-color: $brand-color;
+  color: $white-color;
   border-radius: 3px;
   padding: 1.25rem !important;
-  margin-right: .5em;
+  margin: 0 .5em .5em 0;
 
   webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
   box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
