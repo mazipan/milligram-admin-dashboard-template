@@ -5,7 +5,7 @@
 https://mazipan.github.io/milligram-admin-dashboard-template/
 
 ## Screenshoot
-![milligram-admin-dashboard-template](https://mazipan.github.io/milligram-admin-dashboard-template/milligram-admin-dashboard-template.PNG)
+![milligram-admin-dashboard-template](https://raw.githubusercontent.com/mazipan/milligram-admin-dashboard-template/master/milligram-admin-dashboard-template.PNG)
 
 ## How to contribute
 
