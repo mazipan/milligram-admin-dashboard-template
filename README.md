@@ -4,12 +4,12 @@
 ## Demo
 https://mazipan.github.io/milligram-admin-dashboard-template/
 
+## Screenshoot
+![milligram-admin-dashboard-template](https://mazipan.github.io/milligram-admin-dashboard-template/milligram-admin-dashboard-template.PNG)
+
 ## How to contribute
 
 If you wanna like to contribute in Miligram Admin Dashboard can read our [contributing guidelines](/CONTRIBUTING.md) . Inside you'll find our system for opening issues, notes for development and coding best practices.
-
-## Screenshoot
-> *Under Development*
 
 ## Contact Me :
 
