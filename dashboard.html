@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
   <!-- GOOGLE ANALYTICS AND FRIENDS -->
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -140,7 +141,7 @@
       <article class="column column-75 column-offset-25 content">
         <h2 class="content__title">Dashboard</h2>
         <div class="content__wrapper">
-          <div class="row">
+          <div class="row space-bottom">
             <div class="column card">
               <div class="card__title"><i class="fa fa-users" aria-hidden="true"></i> Total User</div>
               <div class="card__content">
@@ -173,11 +174,21 @@
               </div>
             </div>
           </div>
+
+          <div class="row space-bottom">
+            <div id="chartContainer">FusionCharts XT will load here!</div>
+          </div>
         </div>
       </article>
     </div>
   </main>
 
+
+  <!-- FUSION CHART SCRIPT [start] -->
+  <script src="https://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+  <script src="https://static.fusioncharts.com/code/latest/fusioncharts.charts.js"></script>
+  <script src="js/chart.js"></script>
+  <!-- FUSION CHART SCRIPT [end] -->
 
   <!-- GOOGLE ANALYTICS AND FRIENDS -->
   <script>function _trackLink(e, t, n) { t || (t = "Link"), n || (n = "click"), ga("send", { hitType: "event", eventCategory: t, eventAction: n, eventLabel: e }) } !function (e, t, n, a, c, i, o) { e.GoogleAnalyticsObject = c, e[c] = e[c] || function () { (e[c].q = e[c].q || []).push(arguments) }, e[c].l = 1 * new Date, i = t.createElement(n), o = t.getElementsByTagName(n)[0], i.async = 1, i.src = a, o.parentNode.insertBefore(i, o) }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-25065548-2", "auto"), ga("send", "pageview"), window.onload = function () { try { _trackLink("demo milligram-admin-dashboard-template", "demo", "visit directly") } catch (e) { } };</script>
