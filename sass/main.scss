@@ -148,6 +148,13 @@ $white-color: #fff;
           color: $white-color;
           background-color: lighten($brand-color, 10%);
         }
+
+        span {
+          @media (max-width: 40rem) {
+            display: none;
+          }
+        }
+        
       }
 
       ul {
@@ -163,6 +170,10 @@ $white-color: #fff;
   &-label{
     text-transform: uppercase;
     padding-bottom: .5em;
+
+    @media (max-width: 40rem) {
+      display: none;
+    }
   }
 }
 
