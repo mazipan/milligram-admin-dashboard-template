@@ -129,6 +129,10 @@ $white-color: #fff;
   font-size: 1.3rem;
   color: $white-color;
 
+  @media (max-width: 640px) {
+    padding-right: 1em;
+  }
+
   .is-active{    
     background-color: $brand-color;
   }
@@ -150,7 +154,7 @@ $white-color: #fff;
         }
 
         span {
-          @media (max-width: 40rem) {
+          @media (max-width: 640px) {
             display: none;
           }
         }
@@ -171,7 +175,7 @@ $white-color: #fff;
     text-transform: uppercase;
     padding-bottom: .5em;
 
-    @media (max-width: 40rem) {
+    @media (max-width: 640px) {
       display: none;
     }
   }

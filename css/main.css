@@ -34,6 +34,8 @@
 
 .nav { padding-left: 1em; padding-top: 1em; font-size: 1.3rem; color: #fff; }
 
+@media (max-width: 640px) { .nav { padding-right: 1em; } }
+
 .nav .is-active { background-color: #9b4dca; }
 
 .nav-list { list-style: none; }
@@ -42,13 +44,13 @@
 
 .nav-list li a:hover { color: #fff; background-color: #b174d6; }
 
-@media (max-width: 40rem) { .nav-list li a span { display: none; } }
+@media (max-width: 640px) { .nav-list li a span { display: none; } }
 
 .nav-list li ul { list-style: none; border-left: 1px solid #dbdbdb; margin: .75em; padding-left: .75em; }
 
 .nav-label { text-transform: uppercase; padding-bottom: .5em; }
 
-@media (max-width: 40rem) { .nav-label { display: none; } }
+@media (max-width: 640px) { .nav-label { display: none; } }
 
 .content { position: fixed; height: 100%; margin-top: 5.2rem; padding: .5em !important; overflow: auto; }
 
