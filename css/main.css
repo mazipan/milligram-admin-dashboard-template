@@ -18,7 +18,9 @@
 
 .menu { list-style: none; margin-bottom: 0; margin-right: 5rem; }
 
-@media (min-width: 80rem) { .menu .menu { margin-right: 0; } }
+@media (min-width: 80rem) { .menu { margin-right: 0; } }
+
+@media (max-width: 380px) { .menu { display: none; } }
 
 .menu__item { float: left; margin-bottom: 0; margin-left: 2.5rem; position: relative; }
 

@@ -76,9 +76,11 @@ $white-color: #fff;
   margin-right: 5rem;
 
   @media (min-width: 80rem){
-    .menu {
-        margin-right: 0;
-    }
+    margin-right: 0;
+  }
+
+  @media (max-width: 380px){
+    display: none;
   }
 
   &__item {
