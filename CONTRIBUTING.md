@@ -5,7 +5,7 @@ Can you contributing to Miligram? **This you can help**.
 Take some minutes of your life for read this document, and see how can easy is contribute with few steps.
 
 
-## Issues
+## Issues
 
 The issues tab is the preferred channel for [report bugs](#bug-reports), [new features request](#feature-requests) and submitting [pull request](#pull-requests) for any issue.
 
@@ -16,7 +16,7 @@ The issues tab is the preferred channel for [report bugs](#bug-reports), [new fe
 
 ## Bug reports
 
-** Bug ** is a demostrable problem caused by the code in the repository. When you report a bug is very useful for us, so thank you!
+**Bug** is a demostrable problem caused by the code in the repository. When you report a bug is very useful for us, so thank you!
 
 For bug report the steps are:
 
@@ -89,7 +89,7 @@ Adhering to the following process is the best way to get your work included in t
 
  - Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags).
 
-### JS
+### JS
 
   -  No semicolons (in client-side JS)
   -  2 spaces (no tabs)
